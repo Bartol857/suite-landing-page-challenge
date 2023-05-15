@@ -8,4 +8,174 @@
 
 body {
   font-family: "Epilogue", sans-serif;
+  color: rgb(23, 35, 57);
+}
+
+h1 {
+  font-size: 38px;
+  line-height: 44px;
+  letter-spacing: -0.53px;
+  font-weight: normal;
+}
+h1 span {
+  font-weight: bold;
+}
+
+button {
+  padding: 15px;
+  font-family: inherit;
+  font-weight: bold;
+  letter-spacing: -0.14px;
+  border: 1px solid rgb(23, 35, 57);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 16px;
+}
+.header__btn {
+  font-size: 14px;
+  color: rgb(23, 35, 57);
+  background: none;
+}
+.header__btn:hover {
+  color: rgb(250, 248, 246);
+  background-color: rgb(23, 35, 57);
+}
+
+.info {
+  padding: 16px;
+}
+.info__header {
+  position: relative;
+  padding-top: 25px;
+}
+.info__header::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 155px;
+  width: 151px;
+  height: 19px;
+  background: url("../assets/pattern-curved-line-1.svg") no-repeat;
+  background-size: cover;
+}
+.info__description {
+  margin: 30px 0;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgb(73, 86, 109);
+}
+.info__btn {
+  font-size: 18px;
+  background-color: rgb(23, 35, 57);
+  color: rgb(250, 248, 246);
+}
+.info__btn:hover {
+  background-image: linear-gradient(145deg, rgb(160, 96, 255) 0%, rgb(203, 48, 227) 50%, rgb(255, 168, 78) 100%);
+  border: 1px solid transparent;
+}
+.info__img {
+  margin-top: 50px;
+  height: 240px;
+  background: url("../assets/image-hero-landscape.png") no-repeat;
+  background-position: center;
+}
+.info__statsbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.info__stats {
+  margin-top: 25px;
+  text-align: center;
+}
+.info__stats h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.info__stats p {
+  margin-top: 10px;
+  font-size: 16px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: rgb(73, 86, 109);
+}
+
+.about {
+  position: relative;
+  margin-top: 220px;
+  height: 748px;
+  background-color: rgb(23, 35, 57);
+  border-radius: 10px;
+}
+.about__text {
+  padding-top: 400px;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: rgb(250, 248, 246);
+}
+.about__title {
+  font-size: 40px;
+  letter-spacing: -0.42px;
+  font-weight: normal;
+}
+.about__title span {
+  font-weight: bold;
+}
+.about__quote {
+  padding: 32px 20px;
+  color: rgb(243, 237, 231);
+}
+.about__author {
+  text-transform: uppercase;
+}
+.about__author span {
+  font-weight: bold;
+}
+.about::before {
+  position: absolute;
+  content: "";
+  top: -175px;
+  width: 100%;
+  height: 100%;
+  background: url("../assets/image-jeremy-small.png") no-repeat;
+  background-position: top center;
+}
+.about::after {
+  position: absolute;
+  content: "";
+  top: 275px;
+  width: 100%;
+  height: 100%;
+  background: url("../assets/pattern-curved-line-2.svg") no-repeat;
+  background-position: top center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+  background-color: rgb(243, 237, 231);
+}
+.footer__text {
+  padding: 32px 0;
+  font-size: 15px;
+  color: rgb(73, 86, 109);
+}
+.footer__social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 125px;
 }/*# sourceMappingURL=main.css.map */
